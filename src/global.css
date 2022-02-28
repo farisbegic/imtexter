@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --background-color: #E8E1CF;
+    --main-color: #916367;
+    --text-color: #6E635F;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Montserrat", "sans-serif";
+}

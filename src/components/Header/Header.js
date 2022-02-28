@@ -1,0 +1,35 @@
+import React, {useState} from 'react';
+import './header.css'
+import {Link, NavLink} from "react-router-dom";
+import { GrMenu, GrClose } from 'react-icons/gr';
+import Button from "../Button/Button";
+
+const Header = () => {
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+    return (
+        <nav className="navbar">
+            <div className="nav-container">
+                <Link to="/"><img src="./logo.png" alt="logo" className="nav-logo"/></Link>
+
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                    <li className="nav-item">
+                        <Link to="/" className="nav-links" onClick={handleClick}>Features</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/" className="nav-links" onClick={handleClick}>About</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Button size="sm">TRY NOW</Button>
+                    </li>
+                </ul>
+
+                <div className="nav-icon" onClick={handleClick}>
+                    { !click ? (<GrMenu size="25px"/>) : (<GrClose size="25px"/>)}
+                </div>
+            </div>
+        </nav>
+    );
+};
+
+export default Header;
