@@ -21,7 +21,7 @@
 .nav-menu {
     display: flex;
     list-style: none;
-    text-align: center;
+    align-items: center;
 }
 
 .nav-item {
