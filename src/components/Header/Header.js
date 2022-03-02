@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import './header.css'
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import { GrMenu, GrClose } from 'react-icons/gr';
-import Button from "../Button/Button";
+import LinkButton from "../LinkButton/LinkButton";
 
 const Header = () => {
     const [click, setClick] = useState(false);
@@ -20,7 +20,7 @@ const Header = () => {
                         <Link to="/" className="nav-links" onClick={handleClick}>About</Link>
                     </li>
                     <li className="nav-item">
-                        <Button size="sm">TRY NOW</Button>
+                        <LinkButton size="sm">TRY NOW</LinkButton>
                     </li>
                 </ul>
 

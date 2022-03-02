@@ -1,0 +1,12 @@
+.output-text {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 1em;
+    color: #495057;
+    margin-top: 15px;
+    outline: none;
+}

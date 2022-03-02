@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import Wrapper from "./components/Wrapper/Wrapper";
 import './global.css'
+import "react-widgets/styles.css";
 
 ReactDOM.render(
     <BrowserRouter>

@@ -1,0 +1,8 @@
+.dropzone {
+    border: 1px dotted var(--main-color);
+    color: var(--main-color);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
