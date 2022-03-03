@@ -25,7 +25,13 @@ const DropInput = ({ file, setFile }) => {
         <div>
             <div {...getRootProps({className: 'dropzone'})}>
                 <input {...getInputProps()} />
-                <p>Drag and drop drop image here, or click to select image.</p>
+                { file ? (
+                    <div className="preview-image">
+                        <img src={file.preview} alt={file.name}/>
+                    </div>
+                ) : (
+                    <p>Drag and drop drop image here, or click to select image.</p>
+                )}
             </div>
         </div>
     );

@@ -1,15 +1,15 @@
 const outputs = [
     {
         language: "Word Document",
-        code: "doc"
+        code: "application/msword"
     },
     {
         language: "PDF",
-        code: "pdf"
+        code: "application/pdf"
     },
     {
         language: "Notepad",
-        code: "txt"
+        code: "text/plain"
     }
 ]
 

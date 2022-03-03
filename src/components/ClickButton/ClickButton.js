@@ -3,7 +3,7 @@ import './clickbutton.css'
 
 const ClickButton = ({ disabled, click, text }) => {
     return (
-        <button className="convert-button" disabled={disabled} onClick={() => click()}>{text}</button>
+        <a className="convert-button" disabled={disabled} onClick={() => click()}>{text}</a>
     );
 };
 

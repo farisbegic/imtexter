@@ -12,11 +12,11 @@ const Steps = () => {
                 </div>
                 <div className="step">
                     <h2 className="step-number">2</h2>
-                    <p className="step-description">Select a language and output format.</p>
+                    <p className="step-description">Select a language.</p>
                 </div>
                 <div className="step">
                     <h2 className="step-number">3</h2>
-                    <p className="step-description">Download your converted text.</p>
+                    <p className="step-description">Select output format and download your converted text.</p>
                 </div>
             </div>
         </div>
