@@ -8,7 +8,7 @@ const Header = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     return (
-        <nav className="navbar">
+        <nav className="navbar wrapper">
             <div className="nav-container">
                 <Link to="/"><img src="./logo.png" alt="logo" className="nav-logo"/></Link>
 

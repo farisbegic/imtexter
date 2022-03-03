@@ -41,6 +41,9 @@
 }
 
 @media screen and (max-width: 960px) {
+    .nav-logo {
+        height: 20px;
+    }
     .nav-menu {
         display: flex;
         flex-direction: column;

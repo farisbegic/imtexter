@@ -2,12 +2,76 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    --background-color: #E8E1CF;
-    --main-color: #916367;
-    --text-color: #6E635F;
+    --background-color: #ffffff;
+    --main-color: #F16051;
+    --main-color-30: rgba(241, 96, 81, 0.6);
+    --text-color: #000000;
 }
 
 body {
-    background-color: var(--background-color);
-    font-family: "Montserrat", "sans-serif";
+    background: var(--background-color);
+    font-family: "Lato", "sans-serif";
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.pre-text {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+}
+
+.title {
+    color: var(--text-color);
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+}
+
+.subtitle {
+    color: var(--text-color);
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    padding: 10px 0;
+}
+
+.description {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 1070px){
+    .title {
+        font-size: 35px;
+    }
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .hero-text {
+        width: 100%;
+    }
+    .hero-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .title {
+        font-size: 30px;
+    }
+    .description {
+        font-size: 20px;
+    }
 }

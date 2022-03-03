@@ -58,7 +58,7 @@ const Conversion = () => {
     }, [isCopied])
 
     return (
-        <div className="conversion">
+        <div className="conversion wrapper">
             <DropInput file={file} setFile={setFile}/>
             <ConvertOptions set={setCode} data={languages} text="language" />
             <ClickButton disabled={!code || !file} click={onConvert} text="CONVERT"/>

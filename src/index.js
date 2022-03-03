@@ -11,12 +11,10 @@ import "react-widgets/styles.css";
 ReactDOM.render(
     <BrowserRouter>
         <Scrollbars style={{height: "100vh"}}>
-            <Wrapper>
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                </Routes>
-            </Wrapper>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
         </Scrollbars>
     </BrowserRouter>,
   document.getElementById('root')
