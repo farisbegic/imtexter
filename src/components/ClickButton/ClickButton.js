@@ -2,8 +2,9 @@ import React from 'react';
 import './clickbutton.css'
 
 const ClickButton = ({ disabled, click, text }) => {
+    console.log(disabled)
     return (
-        <button className="convert-button" disabled={disabled} onClick={() => click()}>{text}</button>
+        <a className={`convert-button ${disabled && "disabled"}`} onClick={() => click()}>{text}</a>
     );
 };
 

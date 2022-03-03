@@ -10,7 +10,8 @@
     cursor: pointer;
 }
 
-.convert-button:disabled,
-.convert-button[disabled]{
+.disabled {
+    pointer-events: none;
+    cursor: default;
     background-color: rgba(163, 100, 108, 0.4);
 }
