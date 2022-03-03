@@ -19,7 +19,7 @@ const DropInput = ({ file, setFile }) => {
         if (file) {
             URL.revokeObjectURL(file.preview)
         }
-    }, [file]);
+    }, []);
 
     return (
         <div>
