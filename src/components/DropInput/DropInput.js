@@ -9,7 +9,7 @@ const DropInput = ({ file, setFile }) => {
         }))
     }, [setFile])
 
-    const {acceptedFiles, getRootProps, getInputProps} = useDropzone({
+    const {getRootProps, getInputProps} = useDropzone({
         onDrop,
         maxFiles: 1,
         accept: 'image/jpeg, image/png'
@@ -19,7 +19,7 @@ const DropInput = ({ file, setFile }) => {
         if (file) {
             URL.revokeObjectURL(file.preview)
         }
-    }, []);
+    }, [file]);
 
     return (
         <div>
