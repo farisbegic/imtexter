@@ -58,7 +58,9 @@ const Conversion = () => {
     }, [isCopied])
 
     return (
-        <div className="conversion wrapper">
+        <div className="conversion-container wrapper">
+            <p className="pre-text">CONVERT</p>
+            <h1 className="title">Image to File Converter</h1>
             <DropInput file={file} setFile={setFile}/>
             <ConvertOptions set={setCode} data={languages} text="language" />
             <ClickButton disabled={!code || !file} click={onConvert} text="CONVERT"/>
