@@ -10,6 +10,7 @@
 }
 
 .footer-left {
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -27,9 +28,14 @@
 }
 
 .footer-middle {
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.newsletter {
+    width: 30%;
 }
 
 .newsletter-box {
@@ -61,4 +67,21 @@
 
 .newsletter-input::placeholder {
     color: var(--background-color);
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer-left, .footer-middle, .newsletter {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-left {
+        margin: 40px 0;
+        align-items: center;
+    }
+    .footer-middle {
+        display: none;
+    }
 }
