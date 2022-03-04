@@ -1,6 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './header.css'
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import { GrMenu, GrClose } from 'react-icons/gr';
 import LinkButton from "../LinkButton/LinkButton";
 
@@ -14,7 +15,7 @@ const Header = () => {
 
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/" className="nav-links" onClick={handleClick}>Features</Link>
+                        <HashLink to="/#benefit" className="nav-links" onClick={handleClick}>Features</HashLink>
                     </li>
                     <li className="nav-item">
                         <Link to="/" className="nav-links" onClick={handleClick}>About</Link>

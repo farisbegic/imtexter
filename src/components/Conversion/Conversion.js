@@ -58,7 +58,7 @@ const Conversion = () => {
     }, [isCopied])
 
     return (
-        <div className="conversion-container wrapper">
+        <div id="conversion" className="conversion-container wrapper">
             <p className="pre-text">CONVERT</p>
             <h1 className="title">Image to File Converter</h1>
             <DropInput file={file} setFile={setFile}/>
@@ -69,7 +69,7 @@ const Conversion = () => {
                     <OutputBox text={text} setText={setText}/>
                     <ConvertOptions set={setOutput} data={outputs} text="output" />
                     <ClickButton disabled={!output} click={onDownload} text="DOWNLOAD" />
-                    <ClickButton click={onCopy} text={isCopied ? "COPIED" : "COPY"} />
+                    <ClickButton click={onCopy} text={isCopied ? "COPIED!" : "COPY"} />
                 </>
             )}
         </div>

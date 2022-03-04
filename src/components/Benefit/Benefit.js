@@ -4,9 +4,9 @@ import benefits from "../../data/benefits";
 
 const Benefit = () => {
     return (
-        <div className="benefit-container">
+        <div id="benefit" className="benefit-container">
             <div className="wrapper">
-                <p className="benefit-text pre-text">FEATURES</p>
+                <p className="benefit-text pre-text">BENEFITS</p>
                 <h1 className="benefit-text title">The advantages of using our ORM.</h1>
                 <div className="benefit-list">
                     { benefits.map(benefit => (

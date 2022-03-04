@@ -4,7 +4,7 @@ import steps from "../../data/steps";
 
 const Steps = () => {
     return (
-        <div className="steps-container wrapper">
+        <div id="steps" className="steps-container wrapper">
             <p className="pre-text">TUTORIAL</p>
             <h1 className="title">How it works?</h1>
             <div className="step-list">

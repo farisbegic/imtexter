@@ -1,10 +1,10 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {HashLink} from "react-router-hash-link";
 import "./linkbutton.css"
 
 const LinkButton = (props) => {
     return (
-        <Link to="/" className={props.size}>TRY NOW</Link>
+        <HashLink to="/#conversion" className={props.size}>TRY NOW</HashLink>
     );
 };
 
