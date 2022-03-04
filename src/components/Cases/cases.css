@@ -16,8 +16,8 @@
 .case {
     border: 1px solid var(--main-color);
     text-align: center;
-    width: 160px;
-    padding: 10px 20px;
+    width: 150px;
+    padding: 10px 15px;
     margin: 10px;
     color: var(--main-color);
     cursor: pointer;

@@ -15,6 +15,21 @@ const benefits = [
         icon: <MdFilePresent size={30} color="var(--main-color)" />,
         title: "Edit and download file",
         description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
+    },
+    {
+        icon: <MdFilePresent size={30} color="var(--main-color)" />,
+        title: "Edit and download file",
+        description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
+    },
+    {
+        icon: <MdFilePresent size={30} color="var(--main-color)" />,
+        title: "Edit and download file",
+        description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
+    },
+    {
+        icon: <MdFilePresent size={30} color="var(--main-color)" />,
+        title: "Edit and download file",
+        description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
     }
 ]
 
