@@ -6,6 +6,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import Home from "./pages/Home";
 import './global.css'
 import "react-widgets/styles.css";
+import Footer from "./components/Footer/Footer";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
+            <Footer />
         </Scrollbars>
     </BrowserRouter>,
   document.getElementById('root')

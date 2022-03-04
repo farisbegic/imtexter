@@ -50,6 +50,18 @@ body {
     padding: 10px 0;
 }
 
+.nav-links {
+    color: var(--text-color);
+    font-size: 18px;
+    text-decoration: none;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+}
+
+.white-text {
+    color: var(--background-color) !important;
+}
+
 @media screen and (max-width: 1070px){
     .title {
         font-size: 35px;

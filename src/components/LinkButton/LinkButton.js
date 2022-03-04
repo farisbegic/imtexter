@@ -4,7 +4,7 @@ import "./linkbutton.css"
 
 const LinkButton = (props) => {
     return (
-        <HashLink to="/#conversion" className={props.size}>TRY NOW</HashLink>
+        <HashLink to="/#conversion" className={`button-${props.size}`}>TRY NOW</HashLink>
     );
 };
 

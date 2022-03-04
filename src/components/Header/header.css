@@ -28,14 +28,6 @@
     padding: 0 25px;
 }
 
-.nav-links {
-    color: var(--text-color);
-    font-size: 18px;
-    text-decoration: none;
-    height: 100%;
-    border-bottom: 3px solid transparent;
-}
-
 .nav-icon {
     display: none;
 }

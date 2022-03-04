@@ -9,10 +9,6 @@
     background-color: var(--main-color);
 }
 
-.benefit-text {
-    color: var(--background-color) !important;
-}
-
 .benefit-icon {
     padding: 30px;
     border-radius: 50%;

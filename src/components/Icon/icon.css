@@ -1,0 +1,13 @@
+.icon {
+    border-radius: 50%;
+    background-color: var(--background-color);
+}
+
+.lg {
+    padding: 30px;
+}
+
+.sm {
+    padding: 10px;
+    margin-right: 10px;
+}

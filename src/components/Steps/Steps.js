@@ -8,8 +8,8 @@ const Steps = () => {
             <p className="pre-text">TUTORIAL</p>
             <h1 className="title">How it works?</h1>
             <div className="step-list">
-                { steps.map(step => (
-                    <div className="step">
+                { steps.map((step, index) => (
+                    <div className="step" key={index}>
                         <h2 className="step-number">{step.number}</h2>
                         <p className="step-description">{step.description}</p>
                     </div>
