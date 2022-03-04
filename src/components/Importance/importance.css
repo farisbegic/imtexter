@@ -1,0 +1,34 @@
+.importance-container {
+    background-color: var(--main-color);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.importance-list {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.importance {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+    .importance-list {
+        flex-direction: column;
+    }
+    .importance {
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+    }
+}

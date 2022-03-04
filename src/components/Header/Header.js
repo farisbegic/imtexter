@@ -15,10 +15,13 @@ const Header = () => {
 
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <HashLink to="/#benefit" className="nav-links" onClick={handleClick}>Features</HashLink>
+                        <Link to="/" className="nav-links" onClick={handleClick}>Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/" className="nav-links" onClick={handleClick}>About</Link>
+                        <Link to="/about" className="nav-links" onClick={handleClick}>About</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/contact" className="nav-links" onClick={handleClick}>Contact</Link>
                     </li>
                     <li className="nav-item">
                         <LinkButton size="sm">TRY NOW</LinkButton>

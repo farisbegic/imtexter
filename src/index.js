@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import './global.css'
 import "react-widgets/styles.css";
 import Footer from "./components/Footer/Footer";
+import About from "./pages/About";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
             </Routes>
             <Footer />
         </Scrollbars>
