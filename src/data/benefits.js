@@ -1,4 +1,4 @@
-import { MdOutlineMoney, MdLanguage, MdFilePresent } from 'react-icons/md';
+import { MdOutlineMoney, MdLanguage, MdFilePresent, MdDownload, MdSecurity, MdFastForward } from 'react-icons/md';
 
 const benefits = [
     {
@@ -12,25 +12,25 @@ const benefits = [
         description: "Multiple languages are supported by this image to text converter. It implies that you can use text converter to extract text in more than 80 different languages."
     },
     {
-        icon: <MdFilePresent size={30} color="var(--main-color)" />,
-        title: "Edit and download file",
-        description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
+        icon: <MdDownload size={30} color="var(--main-color)" />,
+        title: "Download files",
+        description: "Our text editor allows you to download the text in the desired format or just copy text to the clipboard and paste it when needed."
     },
     {
         icon: <MdFilePresent size={30} color="var(--main-color)" />,
-        title: "Edit and download file",
-        description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
+        title: "Edit files",
+        description: "You can edit converted text using our embedded editor in case you want to add/remove some parts of the text before downloading."
     },
     {
-        icon: <MdFilePresent size={30} color="var(--main-color)" />,
-        title: "Edit and download file",
-        description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
+        icon: <MdSecurity size={30} color="var(--main-color)" />,
+        title: "Secure",
+        description: "With us, you are protected and secure. We strive to keep your data safe and secure at all times. We stick to our philosophy of not disclosing or storing your personal information to any third parties."
     },
     {
-        icon: <MdFilePresent size={30} color="var(--main-color)" />,
-        title: "Edit and download file",
-        description: "You can edit converted text and download the content in the format you require after you extract text. You may also copy the text to the clipboard and paste it into another document."
-    }
+        icon: <MdFastForward size={30} color="var(--main-color)" />,
+        title: "Fast",
+        description: "Our image to text converter uses Tesseract OCR, which is an open-source optical character recognition software where millions of people contribute to its speed and efficiency."
+    },
 ]
 
 export default benefits;
