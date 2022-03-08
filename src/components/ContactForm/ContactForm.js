@@ -1,6 +1,8 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import { FaMailBulk, FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
 import './contactform.css'
+import Icon from "../Icon/Icon";
 
 const ContactForm = () => {
     const form = useRef();
@@ -18,6 +20,24 @@ const ContactForm = () => {
         <div className="contact-container wrapper">
             <p className="pre-text">CONTACT</p>
             <h1 className="title">Talk to us.</h1>
+            <div className="information-list">
+                <div className="information">
+                    <Icon size="sm" color="pink" icon={<FaMailBulk size={25} color="var(--background-color)" />} />
+                    <a href="https://imtexter.netlify.app/" className="pink-text description">info@imtexter.com</a>
+                </div>
+                <div className="information">
+                    <Icon size="sm" color="pink" icon={<FaInstagram size={25} color="var(--background-color)" />} />
+                    <a href="https://imtexter.netlify.app/" className="pink-text description">instagram/imtexter</a>
+                </div>
+                <div className="information">
+                    <Icon size="sm" color="pink" icon={<FaFacebook size={25} color="var(--background-color)" />} />
+                    <a href="https://imtexter.netlify.app/" className="pink-text description">facebook/imtexter</a>
+                </div>
+                <div className="information">
+                    <Icon size="sm" color="pink" icon={<FaTwitter size={25} color="var(--background-color)" />} />
+                    <a href="https://imtexter.netlify.app/" className="pink-text description">twitter/imtexter</a>
+                </div>
+            </div>
             <form ref={form} className="cform-container" onSubmit={sendEmail}>
                 <div className="form-field">
                     <label>Full Name:</label>

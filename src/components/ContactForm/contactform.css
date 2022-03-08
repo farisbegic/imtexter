@@ -8,7 +8,6 @@
 
 .cform-container {
     width: 100%;
-    padding: 40px 0;
 }
 
 .form-field {
@@ -52,4 +51,27 @@
     padding: 15px 0;
     border: 0;
     border-radius: 5px;
+}
+
+.information-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.information {
+    padding: 10px 0;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .information {
+        width: 180px;
+    }
 }

@@ -49,10 +49,10 @@ const Footer = () => {
                         <img src="./logo-white.png" alt="logo"/>
                     </div>
                     <div className="social-media">
-                        <Icon size="sm" icon={<FaFacebookF color="var(--main-color)" size={18}/>}/>
-                        <Icon size="sm" icon={<FaInstagram color="var(--main-color)" size={18}/>}/>
-                        <Icon size="sm" icon={<FaTwitter color="var(--main-color)" size={18}/>}/>
-                        <Icon size="sm" icon={<FaYoutube color="var(--main-color)" size={18}/>}/>
+                        <Icon size="sm" color="white" icon={<FaFacebookF color="var(--main-color)" size={18}/>}/>
+                        <Icon size="sm" color="white" icon={<FaInstagram color="var(--main-color)" size={18}/>}/>
+                        <Icon size="sm" color="white" icon={<FaTwitter color="var(--main-color)" size={18}/>}/>
+                        <Icon size="sm" color="white" icon={<FaYoutube color="var(--main-color)" size={18}/>}/>
                     </div>
                     <p className="white-text description">Copyright &copy; { new Date().getFullYear() } ImTexter. All rights reserved</p>
                 </div>

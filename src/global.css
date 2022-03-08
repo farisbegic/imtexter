@@ -62,6 +62,10 @@ body {
     color: var(--background-color) !important;
 }
 
+.pink-text {
+    color: var(--main-color) !important;
+}
+
 @media screen and (max-width: 1070px){
     .title {
         font-size: 35px;

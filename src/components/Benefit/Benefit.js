@@ -12,7 +12,7 @@ const Benefit = () => {
                 <div className="benefit-list">
                     { benefits.map((benefit, index) => (
                         <div className="benefit" key={index}>
-                            <Icon size="lg" icon={benefit.icon} />
+                            <Icon size="lg" icon={benefit.icon} color="white"/>
                             <h4 className="white-text subtitle">{benefit.title}</h4>
                             <p className="white-text description">{benefit.description}</p>
                         </div>

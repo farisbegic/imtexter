@@ -1,6 +1,13 @@
 .icon {
     border-radius: 50%;
+}
+
+.white {
     background-color: var(--background-color);
+}
+
+.pink {
+    background-color: var(--main-color);
 }
 
 .lg {
